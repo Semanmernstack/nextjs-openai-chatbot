@@ -25,7 +25,7 @@ export default function Chat() {
       {messages.map(m => (
         <div key={m.id} className="p-2 gap-2 mb-2   ">
           <p className="p-1 shadow-xl italic text-teal-200  ">{m.role}</p>
-          <p className="p-2  border-shadow-2xl text-red-700 font-serif bg-zinc-950 ">{m.content}</p>
+          <p className="p-2  border-shadow-2xl text-white font-serif bg-zinc-950 ">{m.content}</p>
           
         </div>
         
@@ -45,7 +45,7 @@ export default function Chat() {
             placeholder='Send Message'
           />
         
-        <button className="block bg-green-600 animate-pulse p-2 border-2" type="submit">Send</button>
+        <button className="block bg-green-600 p-2 border-2" type="submit">Send</button>
       </form>
     </div>
   )

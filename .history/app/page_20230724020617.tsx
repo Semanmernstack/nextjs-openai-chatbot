@@ -45,7 +45,7 @@ export default function Chat() {
             placeholder='Send Message'
           />
         
-        <button className="block bg-green-600 animate-pulse p-2 border-2" type="submit">Send</button>
+        <button className="block bg-green-600 p-2 border-2" type="submit">Send</button>
       </form>
     </div>
   )
